@@ -17,9 +17,11 @@
                 <div class="outer-login-box d-flex justify-content-center align-items-center">
                     <div class="login-box login-box-inner-w">
                         <h1 class="text-center"><span>AOne</span>Bank</h1>
-                        <input type="text" placeholder="Email" class="w-100">
-                        <input type="password" placeholder="Password" class="w-100" name="" id="">
+                        <input type="text" placeholder="Email" class="w-100" id="getEmail">
+                        <input type="password" placeholder="Password" class="w-100" name="" id="getPass">
                         <button class="login-btn">Sent</button>
+                        <br>
+                        <span id="massage"></span>
                     </div>
                 </div>
             </div>
@@ -30,12 +32,41 @@
     <section class="NextPage">
         <div class="container extra-container">
             <div class="row">
-                <div class="next">
-                    <h2>
-                        salarput ei bank a kisu nai bank kebol banacchi fuck.......
-                    </h2>
+                <div class="col-md-4">
+                    <div class="box deposit">
+                        <h2>$00</h2>
+                        <p>Deposit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box withdrow">
+                        <h2>$00</h2>
+                        <p>Withdrow</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box deposit">
+                        <h2>$1200</h2>
+                        <p>Total</p>
+                    </div>
                 </div>
             </div>
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <div class="enterBox">
+                        <input type="text" id="depositAmount" placeholder="Enter Your Amount" class="form-control">
+                        <button class="login-btn" id="depositAmountBtn">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="enterBox">
+                        <input type="text" id="withdrowAmount" placeholder="Enter Your Amount" class="form-control">
+                        <button class="login-btn" id="withdrowAmountBtn">withdrow</button>
+                    </div>    
+                </div>
+            </div>
+            <br>
+            <span id="massagehack"></span>
         </div>
     </section>
     
