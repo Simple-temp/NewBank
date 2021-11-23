@@ -35,6 +35,11 @@ input
     color:#fff;
     border:none;
     font-weight:bold;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
 }
 h1 
 {
@@ -97,4 +102,10 @@ section
     -ms-border-radius:11px;
     -o-border-radius:11px;
     background-color: rgb(255, 255, 255);
+}
+@media (max-width:990px){
+    .col-md-6 
+    {
+        margin:8px 0;
+    }
 }
